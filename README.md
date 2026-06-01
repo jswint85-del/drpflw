@@ -1,3 +1,3 @@
-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
-price_1TcwCm3FVYLcU4hRmDpfXCAv
-price_1TcwDW3FVYLcU4hRG3fsujkc
+Stripe secret key = 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
+Stripe $29.99 price ID = price_1TcwCm3FVYLcU4hRmDpfXCAv
+Stripe price ID $99.99 = price_1TcwDW3FVYLcU4hRG3fsujkc
