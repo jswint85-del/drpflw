@@ -1,4 +1,4 @@
 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
+price_1TcwCm3FVYLcU4hRmDpfXCAv
+price_1TcwDW3FVYLcU4hRG3fsujkc
 whsec_SanRHfMsKKxuqV0OH89SjJrJBVPOQjYp
-Starter $29
-Pro $99
