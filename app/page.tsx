@@ -28,8 +28,9 @@ export default function Home() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ priceId }),
       })
-      const { url } = await res.json()
-      window.location.href = url
+      const data = await res.json()
+      if (!res.ok || !data.url) throw new Error(data.error ?? 'No checkout URL returned')
+      window.location.href = data.url
     } catch {
       alert('Something went wrong. Please try again.')
       setLoading(null)
