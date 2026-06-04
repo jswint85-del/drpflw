@@ -23,9 +23,7 @@ export async function POST(req: NextRequest) {
     automatic_tax: { enabled: true },
     subscription_data: {
       metadata: { [priceId]: PRICES[priceId] },
-      proration_behavior: 'always_invoice',
     },
-    payment_behavior: 'error_if_incomplete',
     success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${origin}/`,
   })
